@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import Pizza from "Pizza/DumbComponents"
 
 function App() {
   return (
-    <div className="App">
-      Hello World!
+    <div>
+      <Pizza />
     </div>
   );
 }
